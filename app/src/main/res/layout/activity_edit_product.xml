@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Collection.product.EditProductActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/txt_margin_x"
+        android:paddingEnd="@dimen/txt_margin_x"
+        android:paddingTop="@dimen/txt_magin_y_14">
+
+        <ImageView
+            android:id="@+id/img_edit_one_product"
+            android:layout_width="match_parent"
+            android:layout_height="168dp"
+            android:src="@drawable/defaultimage"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="@dimen/my_padding"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_edit_one_title_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/my_padding">
+            <EditText
+                android:id="@+id/txt_edit_one_title_product"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/txt_title"
+                android:inputType="textPersonName"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_edit_one_price_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/my_padding">
+            <EditText
+                android:id="@+id/txt_edit_one_price_product"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/txt_price"
+                android:inputType="numberDecimal" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_edit_one_quantity_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/my_padding">
+            <EditText
+                android:id="@+id/txt_edit_one_quantity_product"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/txt_quantity"
+                android:inputType="number"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_category_name"
+            android:layout_marginTop="@dimen/txt_magin_y_14"/>
+
+        <Spinner
+            android:id="@+id/spinner_edit_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_edit_one_description_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/my_padding">
+
+            <EditText
+                android:id="@+id/txt_edit_one_description_product"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/txt_description"
+                android:inputType="textMultiLine" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_save_edit_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/color_white"
+            android:layout_marginTop="@dimen/txt_magin_y_14"
+            android:text="@string/btn_save_change" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">Tienda Movil</string>
+    <string name="txt_welcome">Bienvenido</string>
+    <string name="txt_app_name">TIENDA MOVIL</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="txt_title_map">Seleccionar ubicación</string>
+    <string name="txt_login">Iniciar Sesión</string>
+    <string name="txt_user">Usuario</string>
+    <string name="txt_password">Contraseña</string>
+    <string name="txt_have_account">¿Ya tienes una cuenta?</string>
+    <string name="txt_check_in">Registrarse</string>
+    <string name="txt_register">Registrate en TMovil</string>
+    <string name="txt_not_account">¿No tienes una cuenta?</string>
+    <string name="txt_name">Nombre</string>
+    <string name="txt_phone">Teléfono</string>
+    <string name="txt_confirm">Confirmar contraseña</string>
+    <string name="txt_location">Ubicación</string>
+    <string name="txt_name_img">Mi Foto</string>
+    <string name="txt_title">Titulo</string>
+    <string name="txt_price">Precio</string>
+    <string name="txt_quantity">Cantidad</string>
+    <string name="txt_category_name">Categoria</string>
+    <string name="txt_category">Seleccione una categoria</string>
+    <string name="txt_description">Descripción</string>
+    <string name="txt_producto">Mis Productos</string>
+    <string name="txt_publications">Publicaciones</string>
+
+
+    <string name="s_name">Nombre:</string>
+    <string name="s_phone">Teléfono:</string>
+    <string name="s_user">Usuario:</string>
+    <string name="s_location">Ubicación:</string>
+    <string name="s_title">Titulo:</string>
+    <string name="s_price">Precio:</string>
+    <string name="s_quantity">Cantidad:</string>
+    <string name="s_category_name">Categoria:</string>
+    <string name="s_description">Descripción:</string>
+    <string name="s_product">Producto:</string>
+    <string name="s_date">Fecha:</string>
+    <string name="s_seller">Vendedor:</string>
+    <string name="s_buyer">Comprador:</string>
+
+    <string name="btn_main">Inicio</string>
+    <string name="btn_next">Siguiente</string>
+    <string name="btn_login">Ingresar</string>
+    <string name="btn_change">Cambiar</string>
+    <string name="btn_save_change">Guardar Cambios</string>
+    <string name="btn_create_product">Crear Producto</string>
+    <string name="btn_post">Publicar</string>
+    <string name="btn_camera">Camara</string>
+    <string name="btn_load">Cargar Imagen</string>
+    <string name="btn_product">Productos</string>
+    <string name="btn_chat">Chat</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_profile">Mi Perfil</string>
+    <string name="menu_category">Categoria</string>
+    <string name="menu_product">Mis Productos</string>
+    <string name="menu_message">Mis Mensajes</string>
+    <string name="menu_favorite">Mis Favoritos</string>
+    <string name="menu_logout">Cerrar Sesión</string>
+    <string name="menu_meeting">Citas</string>
+    <string name="menu_edit_profile">Editar</string>
+    <string name="menu_see">Ver</string>
+    <string name="menu_edit">Editar</string>
+    <string name="menu_delete">Eliminar</string>
+    <string name="menu_delete_one">Quitar de Favoritos</string>
+
+    <string name="tab_item_product">Productos</string>
+    <string name="tab_item_favorite">Favoritos</string>
+    <string name="tab_item_following">Seguidos</string>
+
+    <string name="first_item">Ordenadores</string>
+    <string name="second_item">Video Juegos - Consolas</string>
+    <string name="third_item">Mascotas</string>
+    <string name="fourth_item">Libors - Revistas</string>
+    <string name="fifth_item">Colecciones - Antiguedades</string>
+    <string name="sixth_item">Instrumentos Musicales</string>
+    <string name="seventh_item">Ropa</string>
+    <string name="eight_item">Otras ventas</string>
+
+    <!--Spinner-->
+    <string-array name="category">
+        <item>Ordenadores</item>
+        <item>Video Juegos - Consolas</item>
+        <item>Mascotas</item>
+        <item>Libors - Revistas</item>
+        <item>Colecciones - Antiguedades</item>
+        <item>Instrumentos Musicales</item>
+        <item>Articulos deportivos</item>
+        <item>Ropa</item>
+        <item>Otras ventas</item>
+    </string-array>
+
+    <!--Errors-->
+    <string name="err_map_location">Seleccione una ubicación</string>
+    <string name="err_void_user">Inserte su usuario</string>
+    <string name="err_void_pass">Inserte su contraseña</string>
+    <string name="err_void_name">Inserte Su nombre</string>
+    <string name="err_name">Minimo 2 caracteres (A-Z)</string>
+    <string name="err_userL">5 a 15 caracteres</string>
+    <string name="err_user">Usuario en uso</string>
+    <string name="err_no_user">Usuario no valido</string>
+    <string name="err_pass">Constraseña incorrecta</string>
+    <string name="err_phone">Numero incorrecto (8 digitos)</string>
+    <string name="err_password">Minimo (6 caracteres, 1 digito, 1 caracter[a-z o A-Z])</string>
+    <string name="err_void_title">Inserte un nombre</string>
+    <string name="err_void_price">Inserte un precio</string>
+    <string name="err_void_quantity">Inserte la cantidad</string>
+    <string name="err_void_description">Realice una descripcion</string>
+    <string name="err_title">Titulo mayor a 3 caraceres</string>
+    <string name="err_price">Precio menor a 10 digitos, maximo dos decimales</string>
+    <string name="err_quantity">Cantidad no valida</string>
+    <string name="err_description">Descripcion mayor a 3 caracteres</string>
+    <!--End Errors-->
+
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello Blank Fragment</string>
+    <string name="movil">Celulares</string>
+    <string name="Celulares">Celulares /n/n los precios </string>
+    <string name="title_activity_main3">Main3Activity</string>
+
+
+
+    <string name="textview">TextView</string>
+</resources>

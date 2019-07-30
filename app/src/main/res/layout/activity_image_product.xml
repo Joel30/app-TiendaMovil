@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Collection.product.ImageProductActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="@dimen/my_padding"
+        android:paddingStart="@dimen/txt_margin_x"
+        android:paddingEnd="@dimen/txt_margin_x"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/image_create_product"
+            android:layout_width="match_parent"
+            android:layout_height="353dp"
+            android:layout_marginBottom="@dimen/padding_one"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/defaultimage" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_camera_create_product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="@dimen/padding_one"
+                style="?android:attr/buttonStyleSmall"
+                android:paddingLeft="@dimen/padding_one"
+                android:drawableStart="@android:drawable/ic_menu_camera" />
+
+            <Button
+                android:id="@+id/btn_insert_create_product"
+                android:layout_width="wrap_content"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_marginLeft="@dimen/padding_one"
+                android:paddingLeft="@dimen/padding_one"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:drawableStart="@android:drawable/ic_menu_gallery" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_send_create_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/color_white"
+            android:layout_marginTop="@dimen/txt_margin_y"
+            android:text="@string/btn_next" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

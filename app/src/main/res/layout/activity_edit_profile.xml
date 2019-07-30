@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Collection.profile.EditProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+
+            <ImageView
+                android:id="@+id/img_edit_profile"
+                android:layout_width="126dp"
+                android:layout_height="125dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="21dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/profiledefault" />
+
+            <TextView
+                android:id="@+id/name_img_edit_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="77dp"
+                android:layout_toEndOf="@+id/img_edit_profile"
+                android:text="@string/txt_name_img" />
+
+            <Button
+                android:id="@+id/change_img_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/color_white"
+                android:layout_marginTop="63dp"
+                android:layout_marginEnd="37dp"
+                android:text="@string/btn_change" />
+        </RelativeLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_edit_profile_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/txt_margin_x"
+            android:layout_marginTop="@dimen/txt_magin_y_14"
+            android:layout_marginEnd="@dimen/txt_margin_x">
+            <EditText
+                android:id="@+id/txt_name_edit_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/txt_name"
+                android:inputType="textPersonName" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_edit_profile_location"
+                android:layout_width="288dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/txt_margin_x"
+                android:layout_marginTop="@dimen/txt_magin_y_14">
+
+                <EditText
+                    android:id="@+id/txt_location_edit_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/txt_location"
+                    android:inputType="textPersonName" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/btn_location_edit_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/txt_margin_x"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/my_padding"
+                android:background="@color/colorPrimary"
+                android:drawableStart="@android:drawable/ic_dialog_map"
+                android:gravity="bottom" />
+
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_edit_profile_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/txt_margin_x"
+            android:layout_marginTop="@dimen/txt_magin_y_14"
+            android:layout_marginEnd="@dimen/txt_margin_x">
+            <EditText
+                android:id="@+id/txt_phone_edit_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/txt_phone"
+                android:inputType="number" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_edit_profile_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/txt_margin_x"
+            android:layout_marginTop="@dimen/txt_magin_y_14"
+            android:layout_marginEnd="@dimen/txt_margin_x">
+            <EditText
+                android:id="@+id/txt_user_edit_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/txt_user"
+                android:inputType="textPersonName" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_edit_profile_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/txt_margin_x"
+            android:layout_marginTop="@dimen/txt_magin_y_14"
+            android:layout_marginEnd="@dimen/txt_margin_x">
+            <EditText
+                android:id="@+id/txt_pass_edit_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/txt_password"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/btn_save_edit_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/color_white"
+            android:layout_marginLeft="@dimen/txt_margin_x"
+            android:layout_marginRight="@dimen/txt_margin_x"
+            android:layout_marginTop="@dimen/txt_magin_y_14"
+            android:text="@string/btn_save_change" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

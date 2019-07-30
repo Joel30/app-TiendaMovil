@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "273947937736",
+    "firebase_url": "https://apptiendamovil-7deea.firebaseio.com",
+    "project_id": "apptiendamovil-7deea",
+    "storage_bucket": "apptiendamovil-7deea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273947937736:android:229586a88b22c528",
+        "android_client_info": {
+          "package_name": "com.example.app_tiendamovil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273947937736-3nbl9agidflopr4uvru9u17e8ajem85l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.app_tiendamovil",
+            "certificate_hash": "ed4813d563a8e0d72a02b137bb8d64c637754d4b"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjFe6KtyLVN-8iY4HyC1RxPsto1YRHeaA"
+        },
+        {
+          "current_key": "AIzaSyCvkF3zb9hLOsdUi2mPKBpk93FMc_lhV7k"
+        },
+        {
+          "current_key": "AIzaSyDzbUvZkr4omm9Dk0p5ioUgAvh3g_m5Tkc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273947937736-1u1bbenj20apopkrafatluk4l3uf50bp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
